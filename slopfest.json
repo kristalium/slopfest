@@ -1,0 +1,531 @@
+[
+    {
+        "id": "26a184bb-8066-41a3-ae10-8e9f78701a90",
+        "scriptName": "Asterisk remover *",
+        "findRegex": "/\\*/g",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": true,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "6e3b57a9-0e1f-4599-9904-9911a05eb2a3",
+        "scriptName": "Those",
+        "findRegex": "/\\bthose\\b/gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": true,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "705de7ec-e79f-478f-abc1-7737ef768b51",
+        "scriptName": "Just stay",
+        "findRegex": "/\\bjust stay[.,!?]?\\s*/gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": true,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "67c0b305-9d6c-4060-a615-b76a1031631d",
+        "scriptName": "Ozone remover",
+        "findRegex": "/\\bozone\\b/gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            1,
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "c510ba4e-4edd-4d2e-baf3-8efad3c7cb37",
+        "scriptName": "Firmirin",
+        "findRegex": "/\\b(Firmirin|Fir)\\b/gi",
+        "replaceString": "{{user}}",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "358c3ea3-66df-427d-a8fc-f06083352436",
+        "scriptName": "They didn't pull away.",
+        "findRegex": "/\\b(she|he|they) (didn['']t|did not) (pull|move|step|back|lean|turn) away[.,!?]?\\s*/gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "c9860680-656d-467c-890f-6c462fb323f4",
+        "scriptName": "Didn't pull away.",
+        "findRegex": "/\\b(didn['']t|did not) (pull|move|step|back|lean|turn) away[.,!?]?\\s*/gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "7b06b601-e8c0-4c66-ac58-904968f35e7a",
+        "scriptName": "They didn't notice.",
+        "findRegex": "/\\b(she|he|they) didn't notice[.,!?]?\\s*/gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "583c5d7e-171a-4a1d-9abc-17d464990cdb",
+        "scriptName": "Breath hitched",
+        "findRegex": "/\\b(her|his|their) (breath|heart|chest) (caught|hitched|tightened|ached|stuttered|skipped)[.,!?—]?\\s*/gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "df96997f-e44e-43e1-bacb-8e6f7a2e064a",
+        "scriptName": "Oh. Oh, that's...",
+        "findRegex": "[`\"*]*Oh\\. Oh, that's\\.[.]*[`\"*]*",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "ceee5735-a06f-4a3f-9f0d-ca27f6ca3b1a",
+        "scriptName": "X was Y-ing. X knew X was Y-ing.",
+        "findRegex": "/\\b(\\w+) was (\\w+ing)\\. \\1 knew \\1 was \\2[.,!?]?\\s*/gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "c0e98fe9-7c3e-4d97-8091-fffb318a96a4",
+        "scriptName": "and something uniquely *him/her/their*",
+        "findRegex": "/and something uniquely \\*?(?:him|her|his|hers|them|their|theirs)\\*?/gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "6812941e-ae65-4b8b-bad8-ff9e4a357cbe",
+        "scriptName": "Buddy. Pal.",
+        "findRegex": "/\\bBuddy. Pal[.,!?]?\\s*/gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "0e4d7c61-6910-45b4-b344-a3e0806b95bb",
+        "scriptName": "Instead, ",
+        "findRegex": "(?<!\\w)Instead,\\s+",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "30da9089-e5aa-4145-a726-41865a17777a",
+        "scriptName": "They didn't X it.",
+        "findRegex": "\\b[A-Z][a-z]+\\s+(did not|didn't)\\s+\\w+\\s+it\\.",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "3c72179e-90bb-4bc6-ba91-0a8724062562",
+        "scriptName": "Traitor that it was",
+        "findRegex": "/\\btraitor that it was[.,!?—]?\\s*/gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "227f97c0-68cc-4ffc-a37d-eae01f42d4a6",
+        "scriptName": "their X came out Y-er than intended.",
+        "findRegex": "(\\w+)er than (?:\\w+\\s+)*intended",
+        "replaceString": "$1",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "bcb6e643-473d-4e10-b9f5-2f8af5ea276d",
+        "scriptName": "\"X,\" they repeated.",
+        "findRegex": "\"[^\"]*[,?.!]\"\\s+\\w+\\s+(?:repeat(?:ed|s)?|echo(?:ed|es)?)[^.!?]*[.!?]",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "16f1ea4c-2ae0-4ed2-92a8-ba28723551cb",
+        "scriptName": "They didn't X. Didn't Y. Just Z...",
+        "findRegex": "(They|She|He|It)\\s+didn't\\s+\\w+\\.\\s+Didn't\\s+\\w+\\.\\s+Just\\s+",
+        "replaceString": "$1 ",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "b280262c-b901-43e2-9db3-70328831222a",
+        "scriptName": "They didn't X. Didn't Y or Z. Just...",
+        "findRegex": "[A-Z][^.!?]*(?:didn't|hadn't|wouldn't|couldn't)[^.!?]*\\.\\s+(?:[A-Z]?(?:Didn't|Hadn't|Wouldn't|Couldn't|Don't)[^.!?]*\\.\\s+)+",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "4f189e20-2fbe-4679-ae58-ed6091e74c31",
+        "scriptName": "Not X. Not Y. Just… Z.",
+        "findRegex": "Not [^.]+\\.\\s*(Not [^.]+\\.\\s*)?Just[…\\.]+\\s*[^.\"]+\\.",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "635fc071-41f8-4bb0-abf0-86002262764a",
+        "scriptName": "not X, not Y. Just... Z.",
+        "findRegex": "—not [^,.]+,?\\s*(not [^.]+\\.)?\\s*Just[…\\.]+\\s*[^.\"]+\\.",
+        "replaceString": ".",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "3d159777-bc69-4556-82e0-32dbb025b422",
+        "scriptName": "—not X, not Y, just... Z",
+        "findRegex": "—not [^,]+, not [^,]+, just[^—]*?(?=\\w)(\\w[^.!?—]*)",
+        "replaceString": ", $1",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "ecf28f67-58a3-44b4-8635-22b2022c128c",
+        "scriptName": "—not X, just... Y.",
+        "findRegex": "—not [^,]+, just\\.\\.\\.",
+        "replaceString": ",",
+        "trimStrings": [],
+        "placement": [
+            1,
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "4f0e2ef0-728d-47aa-9c17-ecac2cadc8e7",
+        "scriptName": "—not in X, but in Y",
+        "findRegex": "\\s*—\\s*not in [^,]+, but in",
+        "replaceString": ", in",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "dd1bb8f6-d5fe-477e-be29-10da382e5b8a",
+        "scriptName": "X, rather than Y.",
+        "findRegex": "rather than [^.]+",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "0fa936b4-09dd-43c8-a8d9-dd176f26c807",
+        "scriptName": "Filing that away",
+        "findRegex": "/\\b[Ff]il(?:ed|ing)(?:\\s+\\w+)?\\s+away\\b[^.!?]*[.!?]?/g",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "daa560e1-1d6d-429d-8ea4-ef630abfa66a",
+        "scriptName": "It's not nothing",
+        "findRegex": "[^.!?]*[Ii]t'?s\\s+not\\s+nothing[^.!?]*[.!?]?",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "b5704ed4-ece7-421a-9d62-d46c8afaefd1",
+        "scriptName": "Nightbird",
+        "findRegex": "[^.!?]*\\bnightbird\\b[^.!?]*[.!?]?",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "dd7b896b-fab6-44f6-99b6-fdd709084a7b",
+        "scriptName": "Somewhere a door X-ed",
+        "findRegex": "/[^.!?]*\\b(somewhere)[^.!?]*\\b(a door)[^.!?]*[.!?]?/gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "a7c159c4-f194-4fe0-b278-d34944561399",
+        "scriptName": "X mouth opened. Closed.",
+        "findRegex": "/\\b(?:his|her|their|hers|theirs|[A-Z][a-z]+(?:\\s[A-Z][a-z]+)?'s) mouth opened\\. Closed\\./gi",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    }
+]
