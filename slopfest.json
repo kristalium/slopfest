@@ -154,6 +154,23 @@
         "maxDepth": null
     },
     {
+        "id": "589d6a93-8af5-4558-84af-0d1c4c89224e",
+        "scriptName": "Silence stretched",
+        "findRegex": "[^\\n.!?]*silence stretched[^\\n.!?]*[.!?]*\\n?",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
         "id": "df96997f-e44e-43e1-bacb-8e6f7a2e064a",
         "scriptName": "Oh. Oh, that's...",
         "findRegex": "[`\"*]*Oh\\. Oh, that's\\.[.]*[`\"*]*",
@@ -240,8 +257,8 @@
     },
     {
         "id": "30da9089-e5aa-4145-a726-41865a17777a",
-        "scriptName": "They didn't X it.",
-        "findRegex": "\\b[A-Z][a-z]+\\s+(did not|didn't)\\s+\\w+\\s+it\\.",
+        "scriptName": "X didn't fix it. (!!! MESSY ONE !!!)",
+        "findRegex": "/[A-Z]\\w+(?:\\s[A-Z]\\w+)?\\s+did(?:n't| not)\\s+\\w+(?:\\s\\w+)?\\s+it(?:\\s\\w+)?\\.(\\s*)/g",
         "replaceString": "",
         "trimStrings": [],
         "placement": [
@@ -326,7 +343,7 @@
     {
         "id": "b280262c-b901-43e2-9db3-70328831222a",
         "scriptName": "They didn't X. Didn't Y or Z. Just...",
-        "findRegex": "[A-Z][^.!?]*(?:didn't|hadn't|wouldn't|couldn't)[^.!?]*\\.\\s+(?:[A-Z]?(?:Didn't|Hadn't|Wouldn't|Couldn't|Don't)[^.!?]*\\.\\s+)+",
+        "findRegex": "[A-Z][^.!?]*(?:didn't|hadn't|wouldn't|couldn't)[^.!?]*\\.\\s+(?:[A-Z]?(?:Didn't|Hadn't|Wouldn't|Don't)[^.!?]*\\.\\s+)+",
         "replaceString": "",
         "trimStrings": [],
         "placement": [
@@ -427,8 +444,25 @@
         "maxDepth": null
     },
     {
+        "id": "8155ca42-7772-4d5d-b06a-cf0028663df9",
+        "scriptName": "question hung",
+        "findRegex": "[^.!?]*\\b(question|words|phrase|sentence|silence|thought|moment)\\b[^.!?]*\\bhung\\b[^.!?]*[.!?][\"')\\]]*",
+        "replaceString": "",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": true,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
         "id": "dd1bb8f6-d5fe-477e-be29-10da382e5b8a",
-        "scriptName": "X, rather than Y.",
+        "scriptName": "X, rather than Y.  (!!! MESSY ONE !!!)",
         "findRegex": "rather than [^.]+",
         "replaceString": "",
         "trimStrings": [],
@@ -512,9 +546,9 @@
         "maxDepth": null
     },
     {
-        "id": "a7c159c4-f194-4fe0-b278-d34944561399",
-        "scriptName": "X mouth opened. Closed.",
-        "findRegex": "/\\b(?:his|her|their|hers|theirs|[A-Z][a-z]+(?:\\s[A-Z][a-z]+)?'s) mouth opened\\. Closed\\./gi",
+        "id": "a083a3d7-19c7-4353-8514-834b6063126b",
+        "scriptName": "Mouth opened. Closed. Opened again.",
+        "findRegex": "/\\b(?:mouth|lips?)\\s+(?:open|clos|shut|part)\\w*[.!?](?:\\s+(?:Closed|Opened|Shut|Parted|Closed again|Opened again|Shut again)[.!?])*/gi",
         "replaceString": "",
         "trimStrings": [],
         "placement": [
