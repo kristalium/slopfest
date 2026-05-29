@@ -10,13 +10,13 @@ Like this:
 
 ### Does it help?
 
-It does. But treat regex as a *secondary* clean-up tool.
+It does. But, treat regex as a secondary clean-up tool.
 
-If you use only regex, you allow the model to generate slop. Then you cut it. So you have wasted tokens on slop and then removed it. That shortens the response, lowers its quality, and can mess up a sentence in edge cases.
+If you use only regex, you allow the model to generate slop. Then you cut it. So you have wasted tokens on generating slop... and then removed it. That shortens the response, lowers its quality, and regex editing can mess up sentences in edge cases.
 
-For better results, you should have an anti-slop prompt that asks the AI to never use certain words to begin with. Depending on the model, that helps a lot, or at least a little.
+For better results, you should have an anti-slop prompt that asks the AI to never use certain words to begin with. Do not use contrast negations, do not write "question hung in the air". Depending on the model, that helps a lot, or at least a little.
 
-However, the AI will absolutely ignore your preset at some point, driving you insane. That's what the regex is for.
+However, the AI will absolutely ignore your preset at some point, driving you insane. That's what this regex editing is for.
 
 ### How to install?
 
@@ -25,3 +25,71 @@ However, the AI will absolutely ignore your preset at some point, driving you in
 2. SillyTavern --> Extensions --> Regex --> Import (global or for a preset, you choose)
 
 3. Done.
+
+### What's in there?
+
+Asterisk remover *
+
+-Those
+
+-Just stay
+
+Ozone remover
+
+Firmirin
+
+They didn't pull away.
+
+Didn't pull away.
+
+They didn't notice.
+
+Breath hitched
+
+Silence stretched
+
+Oh. Oh, that's...
+
+X was Y-ing. X knew X was Y-ing.
+
+and something uniquely *him/her/their*
+
+Buddy. Pal.
+
+Instead,
+
+X didn't fix it. (!!! MESSY ONE !!!)
+
+Traitor that it was
+
+their X came out Y-er than intended.
+
+"X," they repeated.
+
+They didn't X. Didn't Y. Just Z...
+
+They didn't X. Didn't Y or Z. Just...
+
+Not X. Not Y. Just… Z.
+
+not X, not Y. Just... Z.
+
+—not X, not Y, just... Z
+
+—not X, just... Y.
+
+—not in X, but in Y
+
+question hung
+
+X, rather than Y. (!!! MESSY ONE !!!)
+
+Filing that away
+
+It's not nothing
+
+Nightbird
+
+Somewhere a door X-ed
+
+Mouth opened. Closed. Opened again.
